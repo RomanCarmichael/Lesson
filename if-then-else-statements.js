@@ -42,3 +42,22 @@ switch (n1) {
 }
 
 console.log("We're out of SWITCH CASE")
+
+const canFly = true;
+
+if (canFly) {
+  console.log('A bird can fly');
+} else if (!canFly) {
+  console.log("A bird can't fly");
+} else {
+  console.log("A bird in undefined");
+}
+
+switch(canFly) {
+  case true: 
+    console.log('A bird can fly');
+  case false:
+    console.log("A bird can't fly");
+  default:
+    console.log("A bird in undefined");
+}
